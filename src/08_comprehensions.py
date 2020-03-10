@@ -16,7 +16,7 @@ print(y)
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
-y = [i ** 2 for i in range(10)]
+y = [i ** 3 for i in range(10)]
 
 print(y)
 
@@ -34,10 +34,7 @@ print(y)
 
 x = input("Enter comma-separated numbers: ").split(',')
 
-print([int(i) for i in x if int(i) % 2 == 0])
-
-
 # What do you need between the square brackets to make it work?
-y = []
+y = [int(i) for i in x if int(i) % 2 == 0]
 
 print(y)
